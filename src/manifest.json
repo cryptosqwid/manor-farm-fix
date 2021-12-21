@@ -6,7 +6,7 @@
     "browser_specific_settings": {
         "gecko": {
           "id": "manorfarmfix@cryptosqwid",
-          "update_url": "https://example.com/updates.json"
+          "update_url": "https://github.com/cryptosqwid/manor-farm-fix/blob/master/src/updates.json"
         }
       },
   
