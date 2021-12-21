@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "ManorFarm Fix",
+    "version": "1.0",
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "manorfarmfix@cryptosqwid",
+          "update_url": "https://example.com/updates.json"
+        }
+      },
+  
+    "description": "Fix the themanor.farm website",
+  
+    "icons": {
+      "48": "manorfarm.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.themanor.farm/*"],
+        "js": ["manor-fix.js"]
+      }
+    ]
+  
+  }
